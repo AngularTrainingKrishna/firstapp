@@ -1,0 +1,7 @@
+<h1>Child Component Value</h1>
+<p appAppHighlightDirective>Value From Parent Component: {{nameFromParent | uppercase}}</p>
+{{numberC | currency:'INR':'code'}}
+<br />
+{{dateC | date:'short'}}
+<input type="text" #typedValue />
+<button class="btn" (click)="TriggerChangeFromChild(typedValue.value)">Change value from Child</button>

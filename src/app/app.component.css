@@ -1,0 +1,13 @@
+h1{
+    color:red;
+}
+
+.stable{
+background-color: rgb(128,209,128);
+color:black;
+}
+
+.offline{
+    background-color: rgb(219,231,110);
+    color:black;
+}
